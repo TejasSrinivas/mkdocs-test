@@ -1,1 +1,15 @@
 site_name: My Docs
+theme:
+  name: material
+  features:
+    - navigation.path
+    - content.tabs.link
+  language: en
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: none
+
+nav:
+  - Intro: index.md
